@@ -7,6 +7,8 @@
     --navy: #17050F;
     --blue: #082840;
     --white: #fff;
+    background-color: rgba(155, 155, 155, 0.671);
+    border: 2px solid black;
 }
 
 
@@ -59,6 +61,7 @@ main :first-child {
 
 header {
     border-bottom: 1px dashed var(--lightgray);
+    background-color: beige;
 }
 
 header:after {
@@ -152,11 +155,15 @@ code {
 
 .home {
     padding: 0 1rem;
+    margin-top: 0.5rem;
     float: left;
-    margin: 1rem 0;
+    margin-left: 1rem 0;
     /* 16px /16 */
-    font-size: 1em;
+    font-size: 2em;
     /* 16px /16 */
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 25px;
 }
 
 .home :link:not(:hover) {
@@ -171,6 +178,7 @@ code {
     list-style: none;
     float: left;
     margin-left: 1em;
+    margin-top: 1rem;
 }
 
 .nav-item {
