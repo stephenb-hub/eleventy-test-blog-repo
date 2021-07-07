@@ -12,13 +12,4 @@ These blog posts are going to document my learning of agile frameworks and stati
 
 I'm not used to blogs so you'll have to stay with me!
 
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
 
-// Test with a line break above this line.
-console.log('Test');
-```
